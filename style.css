@@ -29,7 +29,7 @@ footer {
 
 .anothercontent {
     flex-direction: column;
-    padding: 0 50px;
+    padding: 0 50px 50px 50px;
     background: #c7c7c7;
 }
 
@@ -44,4 +44,8 @@ ul {
 
 .contacts {
     padding-left: 20px;
+}
+
+#link {
+    color: #000000;
 }
