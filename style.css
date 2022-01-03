@@ -1,1 +1,47 @@
-my future css-code
+header,
+main, 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #ffffff;
+}
+
+header {
+    background: #2e2e2e;
+    color: #ffffff;
+}
+
+footer {
+    background: #2e2e2e;
+    color: #ffffff;
+}
+
+.photo {
+    width: 300px;
+}
+
+.maincontent {
+    margin: 0 20%;
+}
+
+.anothercontent {
+    flex-direction: column;
+    padding: 0 50px;
+    background: #c7c7c7;
+}
+
+.contactscontainer {
+    background: #7a7a7a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts {
+    padding-left: 20px;
+}
