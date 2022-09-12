@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Denis Parfimovich</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Denis Parfimovich</h1>
+    </header>
+    <main class="maincontent">
+        <div class="contactscontainer">
+            <div>
+                <img class="photo" src="me.jpg" alt="me">
+            </div>
+            <div class="contacts">
+                <h2>Contacts:</h2>
+                <ul>
+                    <li>e-mail: <a id="linkone" href="mailto:denis.parfimovich@gmail.com">denis.parfimovich@gmail.com</a></li>
+                    <li>mobile/viber: +375336396891</li>
+                    <li>imstagram: denis.parfimovich</li>
+                    <li>Discord (rs-school): Денис (@DenisParfimovich)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="anothercontent">
+            <div class="aboutMeConteiner">
+                <h2>About me:</h2>
+                <p>At this moment I work in the Ministry for Emergency Situations of the Republic of Belarus. I had no previous experience in the IT field, but I have a great desire to develop in this direction!</p>
+            </div>
+            <div class="educationConteiner">
+                <h2>Education:</h2>
+                <ol>
+                    <li>JavaScript video-tutorial on youtube</li>
+                    <li><a id="linktwo" href="https://ucp.by/en/">UNIVERSITY of CIVIL PROTECTION</a></li>
+                </ol>
+            </div>
+            <div class="myskills">
+                <h2>My skills:</h2>
+                <ol>
+                    <li>I can effectively plan my work</li>
+                    <li>ability to read and understand technical documentation</li>
+                    <li>predisposed to teamwork</li>
+                    <li>I can play guitar</li>
+                </ol>
+            </div>
+            <div class="levelOfEnglishContainer">
+                <h2>English level: A2</h2>
+                <p>Something aboul my Eanglish</p>
+            </div>
+            <div class="codeContainer">
+                <h2>Example of a task on codewars: Create Phone Number</h2>
+                <p>Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.</p>
+                <pre>
+                    <code>
+                        function createPhoneNumber(x) {
+                            const b=['(']
+                            for (let i=0; i&lt;3; i++){
+                                b.push(x[i].toString())
+                            }
+                            b.push(') ')
+                            for (let i=3; i&lt;6; i++){
+                                b.push(x[i].toString())
+                            }
+                            b.push('-')
+                            for (let i=6; i&lt;10; i++){
+                                b.push(x[i].toString())
+                            }
+                            return b.join('')
+                        }
+                    </code>
+                </pre>
+            </div>
+            <div>
+                <h2>My first project</h2>
+                <p>First task:<a id="linkthree" href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md">create CV</a></p>
+                <a id="linkfour" href="https://DenisParfimovich.github.io/rsschool-cv/">My CV</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/DenisParfimovich">My GitHub</a></li>
+                <li><a href="https://rs.school/js-stage0/"><img src="rs_school_js.svg" alt="RS_School_logo"></a></li>
+                <li><a href="https://rs.school/js-stage0/">RS School courses</a></li>
+                <li>2022</li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
